@@ -16,14 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSMutableArray *arr=[NSMutableArray new];
+    for (int i=0; i<10; i++) {
+
+        NSString *str=[NSString stringWithFormat:@"%d",i];
+        [arr addObject:str];
+
+    }
+
+    NSLog(@"%@",arr);
+
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 
 @end
