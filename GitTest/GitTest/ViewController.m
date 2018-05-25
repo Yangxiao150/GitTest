@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,11 @@
 
     }
     NSLog(@"%@",arr);
+
+    Person *per=[[Person alloc] init];
+    per.name=@"张三";
+    
+
 
 }
 
