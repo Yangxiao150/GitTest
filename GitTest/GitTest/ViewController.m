@@ -24,7 +24,6 @@
         [arr addObject:str];
 
     }
-
     NSLog(@"%@",arr);
 
 }
