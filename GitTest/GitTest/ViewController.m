@@ -29,6 +29,8 @@
 
     Person *per=[[Person alloc] init];
     per.name=@"张三";
+
+
     
 
 
